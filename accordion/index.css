@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.accordion {
+  background-color: white;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.accordion h1 {
+  text-align: center;
+}
+
+.acc h2,
+.acc p {
+  padding: 1rem;
+  margin: 0;
+}
+
+.acc h2 {
+  background-color: white;
+  border-bottom: 5px solid crimson;
+  color: burlywood;
+}
+.acc h2:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.words {
+  /* display: none; */
+  background-color: white;
+}
+
+.acc {
+  margin: 0;
+}
